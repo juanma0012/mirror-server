@@ -3,8 +3,4 @@ directory '/var/repo' do
     group 'root'
     mode '0755'
     action :create
-end
-
-link '/var/www/html/repo' do
-    to '/var/repo'
-end
+  end

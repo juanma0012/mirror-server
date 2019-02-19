@@ -1,1 +1,2 @@
-package 'httpd'
+package 'epel-release'
+package 'nginx'
